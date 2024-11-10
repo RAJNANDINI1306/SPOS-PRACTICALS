@@ -1,0 +1,9 @@
+START   100    
+LABEL1  MOV A,B 
+        ADD A,=5
+        DS  10   
+        DC  '5'  
+        MOV C,=3
+        ORIGIN LABEL1+4
+        LTORG   
+        END     
